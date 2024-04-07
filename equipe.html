@@ -10,24 +10,24 @@
     <meta name="author" content="Fabio Henrique">
     <meta name="revised" content="Saturday, April 6th, 2024, 5:15 am">
     <meta name="language" content="Portuguese">
+    <link rel="stylesheet" href="style/headerAndfooter.css">
     
-    <title></title> <!---Arrumar isso--->
+    <title>Acordes Livres: Nossa Equipe</title>
 </head>
 
 <body>
     <header> <!--Cabeçalho com Logo e Nome da Empresa/Projeto-->
-        <a href="index.html"><img src="https://picsum.photos/id/684/100/100" alt=""></a> <!--logo-->
+        <a href="index.html"><img src="logo150.png" alt="Logo" title="Logo"></a> <!--logo-->
         <h1>Acordes Livres</h1>
     </header>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="cursos.html">Cursos</a></li>
-                <li><a href="#">Nossa Equipe</a></li>
-                <li><a href="formulario.html">Vem pro Acordes</a></li> <!--Colocar uma frase melhor-->
-            </ul>
-        </nav>
+    <nav>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="cursos.html"><li>Cursos</li></a>
+            <a href="#"><li>Nossa Equipe</li></a>
+        </ul>
+    </nav>
 
     <main>
         <section> <!--Sessão do funcionario-->
@@ -56,35 +56,34 @@
     </main>
 
     <footer> <!--Rodapé com Endereço, Mapa do site, Contatos e NewsLetter-->
-        <dl>
-            <dt>Endereço:</dt>
-            <dd>Rua das Notas Musicais, Bairro Harmonia, Cidade Melódica, Estado da Harmonia, CEP: 12345-678</dd>
-        </dl>
-
-        <dl>
-            <dt>Mapa do Site:</dt>
-            <dd><a href="index.html">Home - Página Inicial</a></dd>
-            <dd><a href="cursos.html">Cursos - Descubra nossos cursos gratuitos</a></dd>
-            <dd><a href="#">Equipe - Conheça nosso time</a></dd>
-            <dd><a href="formulario.html">Vem pro Acordes! - Inscreva-se para mais informações</a></dd> <!--Colocar uma frase melhor (form)-->
-        </dl>
-
-        <dl>
-            <dt>Contatos:</dt>
-            <dd><a href="#">Facebook</a></dd>
-            <dd><a href="#">Instagram</a></dd>
-            <dd><a href="#">X</a></dd>
-            <dd>WhatsApp: <a href="#">+55 (12) 93456-7890</a></dd>
-        </dl>
-
-        <div id="newsletter">
-            <form>
-                <label for="mail">Assine nossa newsletter para ficar por dentro das novidades e eventos musicais! Insira seu e-mail abaixo:</label> <br>
-                <input type="email" id="mail" name="mail" placeholder="email@dominio.com">
-                <input type="submit">
-            </form>
+        <div id="rodape">
+            <dl>
+                <dt><strong>Endereço:</strong></dt>
+                <dd>Rua das Notas Musicais, Bairro Harmonia, Cidade Melódica, Estado da Harmonia, CEP: 12345-678</dd>
+            </dl>
+            <dl>
+                <dt><strong>Mapa do Site:</strong></dt>
+                <dd><a href="index.html">Home - Página Inicial</a></dd>
+                <dd><a href="cursos.html">Cursos - Descubra nossos cursos gratuitos</a></dd>
+                <dd><a href="#">Equipe - Conheça nosso time</a></dd>
+            </dl>
+            <dl>
+                <dt><strong>Contatos:</strong></dt>
+                <dd><a href="#">Facebook</a></dd>
+                <dd><a href="#">Instagram</a></dd>
+                <dd><a href="#">X</a></dd>
+                <dd>WhatsApp: <a href="#">+55 (11) 93456-7890</a></dd>
+            </dl>
+            <div id="newsletter">
+                <form>
+                    <label for="mail"><strong>Assine nossa newsletter</strong> para ficar por dentro das novidades e eventos musicais! Insira
+                        seu e-mail abaixo:</label> <br>
+                    <input type="email" id="mail" name="mail" placeholder="  email@dominio.com" size="30px">
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
         </div>
 
-        <P>© 2024 Acordes Livres. Todos os direitos reservados.<br> Desenvolvido por Fabio Henrique.</p>
+        <P><strong>© 2024 Acordes Livres. Todos os direitos reservados.</strong><br> Desenvolvido por Fabio Henrique.</p>
     </footer>
 </body>
