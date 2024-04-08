@@ -13,7 +13,7 @@
     <meta name="author" content="Fabio Henrique">
     <meta name="revised" content="Saturday, April 6th, 2024, 5:15 am">
     <meta name="language" content="Portuguese">
-    <link rel="shortcut icon" href="logo100.png" type="image/x-icon">
+    <link rel="shortcut icon" href="image/logo100.png" type="image/x-icon">
     <link rel="stylesheet" href="style/headerAndfooter.css">
     <link rel="stylesheet" href="style/index.css">
 
@@ -22,7 +22,7 @@
 
 <body>
     <header> <!--Cabeçalho com Logo e Nome da Empresa/Projeto-->
-        <a href="index.html"><img src="logo150.png" alt="Logo" title="Logo"></a> <!--logo-->
+        <a href="index.html"><img src="image/logo150.png" alt="Logo" title="Logo"></a> <!--logo-->
         <h1>Acordes Livres</h1>
     </header>
 
@@ -34,20 +34,20 @@
             <a href="cursos.html">
                 <li>Cursos</li>
             </a>
-            <a href="equipe.html">
+            <a href="#" id="equipe">
                 <li>Nossa Equipe</li>
             </a>
         </ul>
     </nav>
 
     <main>
-        <img src="image/Music festival-cuate.svg" height="530" width="1515" id="intro"alt="Introdução" title="Seja Bem Vindo">
+        <img src="image/Music festival-cuate.svg" id="intro" alt="Introdução" title="Seja Bem Vindo">
 
         <section id="Psection" class="conteudo"> <!--Primeira-->
             <div class="texto">
                 <h2>Descubra o Poder da Música: Transformando Vidas Através dos Acordes</h2>
 
-                <p>Seja bem-vindo à Harmonia Jovem, onde a música é mais do que uma arte - é uma ferramenta de transformação. Aqui, buscamos cultivar talentos, inspirar mentes e criar oportunidades. Nossa missão é simples: oferecer educação musical de qualidade, sem barreiras financeiras. Explore nosso mundo de melodias e descubra como a música pode mudar vidas. Bem-vindo à sua jornada melódica!</p>
+                <p>Seja bem-vindo ao Acordes Livres, onde a música é mais do que uma arte - é uma ferramenta de transformação. Aqui, buscamos cultivar talentos, inspirar mentes e criar oportunidades. Nossa missão é simples: oferecer educação musical de qualidade, sem barreiras financeiras. Explore nosso mundo de melodias e descubra como a música pode mudar vidas. Bem-vindo à sua jornada melódica!</p>
                <p><strong>Venha fazer parte:</strong></p>
                 <ul>
                     <li>Aprenda com Paixão: Violão, Guitarra, Bateria e Mais - Tudo Gratuito!</li>
@@ -66,7 +66,7 @@
         <section id="Ssection" class="conteudo"> <!--Segunda-->
             <div class="texto">
                 <h2>Nosso Compromisso: Educação Musical de Qualidade, Acesso para Todos</h2>
-                <p>Na Acordes Livres, nosso compromisso vai além de simplesmente ensinar música. Nós capacitamos jovens talentos, oferecendo aulas de violão, guitarra, bateria, piano e mais, tudo gratuitamente. Com a generosidade de nossos parceiros, temos orgulho de dizer que já ajudamos milhares de estudantes a descobrirem sua paixão pela música. Junte-se a nós nessa jornada melódica!</p>
+                <p>No Acordes Livres, nosso compromisso vai além de simplesmente ensinar música. Nós capacitamos jovens talentos, oferecendo aulas de violão, guitarra, bateria, piano e mais, tudo gratuitamente. Com a generosidade de nossos parceiros, temos orgulho de dizer que já ajudamos milhares de estudantes a descobrirem sua paixão pela música. Junte-se a nós nessa jornada melódica!</p>
 
                 <p><strong>Realizações:</strong></p>
                 <ul>
@@ -86,9 +86,35 @@
 
         <section id="sectiontest"> <!---Testemunhos-->
             <div id="testemunhos">
-                <img src="https://picsum.photos/id/684/400/400" alt="">
-                <img src="https://picsum.photos/id/684/400/400" alt="">
-                <img src="https://picsum.photos/id/684/400/400" alt="">
+                <div class="caixa">
+                    <div class="foto">
+                        <img src="/image/exaluno1.jpg" alt="Ex-aluna: Sofia Mendes">
+                    </div>
+                    <div class="comentario">
+                        <p class="nome">Sofia Mendes</p>
+                        <p>Acordes Livres foi mais do que uma escola de música - foi meu lar musical. Aprendi violão e canto aqui, e cada acorde foi uma jornada de descoberta. Agradeço a todos os professores dedicados e às oportunidades que recebi. Hoje, a música é minha vida, e devo isso a esse grande projeto.</p>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <div class="foto">
+                        <img src="image/exaluno2.jpg" alt="Ex-aluno: Lucas Oliveira">
+                    </div>
+                    <div class="comentario">
+                        <p class="nome">Lucas Oliveira</p>
+                        <p>Estudei piano no Acordes Livres e posso dizer que foi uma experiência que mudou minha vida. Os professores não só me ensinaram música, mas também me ajudaram a crescer como pessoa. Hoje, toco em uma banda local e devo muito do meu sucesso à base que recebi nesta escola maravilhosa.</p>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <div class="foto">
+                        <img src="image/exaluno3.jpg" alt="Ex-aluna: Maria Silva" height="400px" width="400">
+                    </div>
+                    <div class="comentario">
+                        <p class="nome">Maria Silva</p>
+                        <p>O Acordes Livres é mais do que uma escola - é uma família musical. Aprendi guitarra e baixo aqui, mas também aprendi sobre trabalho em equipe, persistência e paixão. Agradeço a cada professor que acreditou em mim e à Melodia por me dar asas para voar musicalmente.</p>
+                    </div>
+                </div>
             </div>
             <div class="botao">
                 <a href="cursos.html"><button>Vem pro Acordes!</button></a>
@@ -106,7 +132,7 @@
                 <dt><strong>Mapa do Site:</strong></dt>
                 <dd><a href="#">Home - Página Inicial</a></dd>
                 <dd><a href="cursos.html">Cursos - Descubra nossos cursos gratuitos</a></dd>
-                <dd><a href="equipe.html">Equipe - Conheça nosso time</a></dd>
+                <dd><a href="#">Equipe - Conheça nosso time</a></dd>
             </dl>
             <dl>
                 <dt><strong>Contatos:</strong></dt>
@@ -129,5 +155,6 @@
         <P><strong>© 2024 Acordes Livres. Todos os direitos reservados.</strong><br> Desenvolvido por Fabio Henrique.
         </p>
     </footer>
+    <script src="script/script.js"></script>
 </body>
 </html>

@@ -32,6 +32,7 @@ header h1{
 }
 header img{
     padding: 10px;
+    width: 100%;
 }
 
 /*Estilos para os elementos do nav*/
@@ -81,7 +82,16 @@ form input{
     border: 3px solid black;
     font-size: 15px;
     padding: 3px;
+    background-color: var(--neutro);
 }
 input[type="submit"]:hover{
     cursor: pointer;
+    background-color: #b1b1b1;
+    transition: 0.5s;
+}
+
+@media(max-width: 910px){
+    #rodape{
+        display: block;
+    }
 }

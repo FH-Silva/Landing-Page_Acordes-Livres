@@ -1,48 +1,72 @@
 @charset "UTF-8";
-  
-form{
-    max-width: 700px;
-    margin: 10px auto;
-    padding: 20px;
-    background-color: #2a78afcc;
-    border-radius: 10px;
-    border: 1px solid black;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+:root {
+  --primario: #4682B4;
+  --segundario: #800000;
+  --destaque2: #DC143C;
+  --neutro: #F5F5F5;
 }
 
-form input{
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid black;
-    box-sizing: border-box;
-    background-color: #BDBABA;
+main {
+  background-color: #122332;
+  padding: 20px;
 }
 
-form .enviar{
-    width: 100%;
-    margin: auto;
-    padding: 10px;
-    border: 1px solid black;
-    background-color: #EA845B;
-    color: #000000;
-    border-radius: 5px;
-    cursor: pointer;
+main h2 {
+  color: #F5F5F5;
+  font-family: "PT sans", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
 }
-  
-  /* Responsividade */
-  @media (max-width: 768px) {
-    .container {
-      padding: 10px;
-    }
-    form {
-      padding: 15px;
-    }
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    button {
-      width: 100%;
-    }
+
+.form {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background-color: var(--primario);
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  font-family: "PT sans", sans-serif;
+  color: var(--neutro)
+}
+
+.form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: var(--neutro);
+}
+
+form .enviar {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: var(--destaque2);
+  color: var(--neutro);
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
   }
+
+  form {
+    padding: 15px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  button {
+    width: 100%;
+  }
+}

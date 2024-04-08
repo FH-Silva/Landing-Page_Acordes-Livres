@@ -13,7 +13,7 @@
     <meta name="author" content="Fabio Henrique">
     <meta name="revised" content="Saturday, April 6th, 2024, 5:15 am">
     <meta name="language" content="Portuguese">
-    <!--Logo na aba do navegador-->
+    <link rel="shortcut icon" href="image/logo100.png" type="image/x-icon">
     <link rel="stylesheet" href="style/headerAndfooter.css">
     <link rel="stylesheet" href="style/form.css">
 
@@ -22,7 +22,7 @@
 
 <body>
     <header> <!--Cabeçalho com Logo e Nome da Empresa/Projeto-->
-        <a href="index.html"><img src="logo150.png" alt="Logo" title="Logo"></a> <!--logo-->
+        <a href="index.html"><img src="image/logo150.png" alt="Logo" title="Logo"></a> <!--logo-->
         <h1>Acordes Livres</h1>
     </header>
 
@@ -34,37 +34,42 @@
             <a href="cursos.html">
                 <li>Cursos</li>
             </a>
-            <a href="equipe.html">
+            <a href="#">
                 <li>Nossa Equipe</li>
             </a>
         </ul>
     </nav>
 
     <main>
-        <h2>Titulo2</h2> <!---Arrumar isso--->
+        <h2>Matricule-se agora já e faça parte da próxima turma!</h2>
         <div class="form">
             <form>
-                <div class="formgroup">
+                <div class="formgrupo">
                     <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required maxlength="55">
                 </div>
-
-                <div class="formgroup">
+                <div class="formgrupo">
                     <label for="sobrenome">Sobrenome:</label>
-                    <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome">
+                    <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome"required maxlength="55">
                 </div>
-
-                <div class="formgroup">
+                <div class="formgrupo">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF (00000000000)" required minlength="11" maxlength="11">
+                </div>
+                <div class="formgrupo">
+                    <label for="nascimento">Data de nascimento:</label>
+                    <input type="date" name="nascimento" id="nascimento" required>
+                </div>
+                <div class="formgrupo">
                     <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required maxlength="55">
+                </div>
+                <div class="formgrupo">
+                    <label for="numero">Número:</label>
+                    <input type="tel" id="numero" name="numero" placeholder="Digite seu número (900000000)" required minlength="9" maxlength="9">
                 </div>
 
-                <div class="formgroup">
-                    <label for="numero">Número:</label>
-                    <input type="tel" id="numero" name="numero" placeholder="Digite seu número">
-                </div>
-                
-                <input type="button" value="Enviar">
+                <input type="submit" value="Enviar" class="enviar">
             </form>
         </div>
     </main>
@@ -79,7 +84,7 @@
                 <dt><strong>Mapa do Site:</strong></dt>
                 <dd><a href="index.html">Home - Página Inicial</a></dd>
                 <dd><a href="cursos.html">Cursos - Descubra nossos cursos gratuitos</a></dd>
-                <dd><a href="equipe.html">Equipe - Conheça nosso time</a></dd>
+                <dd><a href="#">Equipe - Conheça nosso time</a></dd>
             </dl>
             <dl>
                 <dt><strong>Contatos:</strong></dt>
