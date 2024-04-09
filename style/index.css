@@ -16,7 +16,7 @@ main {
 }
 .conteudo {
     display: flex;
-    justify-content: space-between;/*Alinha os elementos de maneira igual*/
+    justify-content: space-between;
     padding: 20px;
 }
 
@@ -53,7 +53,7 @@ main {
     padding: 20px;
 }
 .caixa{
-    background-color: #CAC9C9;
+    background-color: #4682B4;
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 5px 1px 30px rgb(65, 65, 65);
@@ -62,6 +62,7 @@ main {
 .foto{
     text-align: center;
     padding: 10px;
+    background-color: #325572;
 }
 .foto img {
     border-radius: 30%;
