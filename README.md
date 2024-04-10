@@ -6,4 +6,5 @@
 <figure>
 <img src="image/PageSpeed.png" title="Page Speed">
   <figcaption><a href="https://pagespeed.web.dev/" target="_blank">Site usado para fazer os testes</a></figcaption>
-</figure>
+</figure> <br>
+<a href="https://fh-silva.github.io/Landing-Page_Acordes-Livres/">Link do site</a>
